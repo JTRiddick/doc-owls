@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import AppRoutes from './components/AppRoutes';
-import style from '../src/sass/style.scss';
+require('./sass/style.scss');
+import style from './sass/style.scss';
 
 
 window.onload = () => {
