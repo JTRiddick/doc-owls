@@ -1,6 +1,7 @@
-@import "reset.scss"
+@import "reset.scss";
 
-body{
+:global{
+body {
   color: #030303;
   font: caption;
   padding-bottom: 2em;
@@ -46,7 +47,7 @@ footer {
   h1{
     font-size: 3em;
     font-weight: bold;
-  }
+  }// import style from './sass/style.scss';
   h2{
     font-size: 2em;
     font-weight: bold;
@@ -239,4 +240,5 @@ nav.subjects-menu a.active {
 
 #abar a:hover {
   text-decoration: underline;
+}
 }
