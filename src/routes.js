@@ -7,10 +7,19 @@ import App from './components/App';
 import About from './components/About';
 import NotFound from './components/NotFound';
 
+import PostsNew from './components/PostsNew';
+import PostsIndex from './components/PostsIndex';
+import PostsShow from './components/PostsShow';
+
+
+
 const Routes = () => (
-  <Switch  >
-    <Route path="/" component={App} />
+  <Switch>
+    <Route path="/posts/new" component={PostsNew} />
+    <Route path="/posts/:id" component={PostsShow} />
+    <Route path="/posts" component={PostsIndex}/>
     <Route path="/about" component={About} />
+    <Route path="/" component={App} />
     <Route path="*" component={NotFound} />
   </Switch>
 );
