@@ -1,16 +1,18 @@
-import React from 'react'
-import {Route, IndexRoute} from 'react-router'
-import Layout from './components/Layout';
-import IndexPage from './components/IndexPage';
-import SubjectPage from './components/SubjectPage';
-import NotFoundPage from './components/NotFoundPage';
 
-const routes = (
-  <Route path="/" component={Layout}>
-    <IndexRoute component={IndexPage}/>
-    <Route path="subject/:id" component={SubjectPage}/>
-    <Route path="*" component={NotFoundPage}/>
-  </Route>
+// src/routes.js
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import App from './components/App';
+import About from './components/About';
+import NotFound from './components/NotFound';
+
+const Routes = () => (
+  <Switch  >
+    <Route path="/" component={App} />
+    <Route path="/about" component={About} />
+    <Route path="*" component={NotFound} />
+  </Switch>
 );
 
-export default routes;
+export default Routes;
