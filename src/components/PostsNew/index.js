@@ -6,6 +6,7 @@ import { createPost } from '../../actions';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+import './style.css';
 
 class PostsNew extends Component{
 

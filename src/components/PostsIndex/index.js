@@ -6,6 +6,7 @@ import { fetchPosts } from '../../actions';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+import './style.css';
 
 class PostsIndex extends Component {
   componentDidMount(){

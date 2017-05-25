@@ -5,6 +5,7 @@ import { fetchPost, deletePost } from '../../actions';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
+import './style.css';
 
 class PostsShow extends Component {
   componentDidMount(){
