@@ -9,7 +9,7 @@ import Routes from './routes';
 
 import reducers from './reducers';
 
-import './index.css';
+import './Styles/index.scss';
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 

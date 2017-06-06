@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
 import logo from './logo.svg';
-import './style.css';
+import './style.scss';
 
 class App extends Component {
   // static propTypes = {}
