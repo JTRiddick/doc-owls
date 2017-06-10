@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { fetchPosts } from '../../actions';
 
 
-import './style.css';
+import './style.scss';
 
 class PostsIndex extends Component {
   componentDidMount(){

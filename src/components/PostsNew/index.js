@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 import { createPost } from '../../actions';
 
 
-import './style.css';
+import './style.scss';
 
 class PostsNew extends Component{
 

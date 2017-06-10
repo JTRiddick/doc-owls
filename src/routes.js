@@ -13,8 +13,8 @@ import PostsShow from './components/PostsShow';
 
 
 
-const Routes = (props) => (
-  <Switch {...props}>
+const Routes = () => (
+  <Switch>
     <Route path="/posts/new" component={PostsNew} />
     <Route path="/posts/:id" component={PostsShow} />
     <Route path="/posts" component={PostsIndex}/>
