@@ -3,10 +3,11 @@ const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
 
-const React = require('react');
+import React from 'react';
+// const React = require('react');
 const { renderToString } = require('react-dom/server');
 const { StaticRouter } = require('react-router-dom');
-const { App } = require('./components/App');
+const { App } = require('../src/components/App/index.js');
 const Router = StaticRouter;
 const app = express();
 
