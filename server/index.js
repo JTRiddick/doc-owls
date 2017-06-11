@@ -4,11 +4,10 @@ const morgan = require('morgan');
 const path = require('path');
 
 import React from 'react';
-// const React = require('react');
-const { renderToString } = require('react-dom/server');
-const { StaticRouter } = require('react-router-dom');
-const { App } = require('../src/components/App/index.js');
-const Router = StaticRouter;
+import { renderToString } from 'react-dom/server';
+import { StaticRouter as Router } from 'react-router-dom';
+import { App } from '../src/components/App/index.js';
+
 const app = express();
 
 // Setup logger
